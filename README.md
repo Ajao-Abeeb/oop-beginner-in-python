@@ -29,4 +29,39 @@
 2. Instance Variables in python
 3. Methods in Python
   i. Functions insie the class Python can be as methods
-  ii. Instance Methods
+  ii. **Instance Methods**
+      a. needs to be accesssed using the project
+      b. has self keyword
+   i.**Static methods**
+      a. @staticmethod
+      b. should not be specified with self keyword
+      c. if we provide self keyword in the static methods, that will be treated as a first parameter, for which we have to pass the argument while calling it
+      d. can be accessed using the Class name
+4. Instance Variables and Instance Methods belong to Object Memory
+5. Static Varaibles and Static Methods belong to Class Memory
+6. Static Methods can only access Static Stuff
+
+
+**Inheritance**
+1. inheritance
+   a. A child Class acquiring the properties of Parent Class
+   b. Practical Demonstration of Inheritance
+      Class B(A)
+
+**Types of Inheritance**
+1. Types of Inheritance
+   a. single
+   b. Multilevel
+   c. Hierarchical - Two child classes have same parent class
+   d. Multiple -  A child has two Parent classes - Class three(One.Two)
+   e. Hybrid - Hierarchical + Multiple
+
+**Polymorphism-Method Overriding**
+1. polymorphism- method overriding
+   a. Overriding Variable and method in python
+2. Practical Demonstration
+
+By
+Ajao abeeb 
+
+
